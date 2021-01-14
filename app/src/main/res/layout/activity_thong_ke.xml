@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ThongKe">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        app:title="BookManager"
+        app:titleMarginStart="20dp"
+        app:titleTextColor="@color/white" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <TextView android:text="Hôm nay:"
+            android:layout_row="0"
+            android:layout_column="0"
+            style="@style/thongke"/>
+
+        <TextView android:text="Tháng nay:"
+            android:layout_row="1"
+            android:layout_column="0"
+            style="@style/thongke"/>
+
+        <TextView android:text="Năm nay:"
+            android:layout_row="2"
+            android:layout_column="0"
+            style="@style/thongke"/>
+        <TextView android:text="3920000"
+            android:layout_row="0"
+            android:layout_column="1"
+            style="@style/thongke"/>
+        <TextView android:text="4840000"
+            android:layout_row="1"
+            android:layout_column="1"
+            style="@style/thongke"/>
+        <TextView android:text="6600000"
+            android:layout_row="2"
+            android:layout_column="1"
+            style="@style/thongke"/>
+
+    </GridLayout>
+
+
+</LinearLayout>
