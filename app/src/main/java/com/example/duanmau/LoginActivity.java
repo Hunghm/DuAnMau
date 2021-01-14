@@ -34,10 +34,10 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String passWord = edPassword.getText().toString();
                 String userName = edUser.getText().toString();
-                if (login(userName,passWord)){
+//                if (login(userName,passWord)){
                     Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                     startActivity(intent);
-                }
+//                }
             }
         });
         btnCancel.setOnClickListener(new View.OnClickListener() {

@@ -9,17 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DuAnMau">
-        <activity android:name=".LoginActivity">
-
-        </activity>
-
-        <activity android:name=".MainActivity">
+        <activity android:name=".Book.AddBook"></activity>
+        <activity android:name=".Bill.AddBill" />
+        <activity android:name=".categori.AddCategori" />
+        <activity android:name=".User.AddUser" />
+        <activity
+            android:name=".ThongKe"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".BestSeller"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".Bill.HoaDon"
+            android:theme="@style/Theme.DuAnMau.NoActionBar" />
+        <activity android:name=".Book.Sach"
+            android:theme="@style/Theme.DuAnMau.NoActionBar"/>
+        <activity
+            android:name=".categori.TheLoai"
+            android:theme="@style/Theme.DuAnMau.NoActionBar" />
+        <activity
+            android:name=".User.NguoiDung"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".SplashScreem"
+            android:theme="@style/SplashscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
