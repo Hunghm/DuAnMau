@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DuAnMau">
-        <activity android:name=".activity"></activity>
         <activity android:name=".Book.AddBook" />
         <activity android:name=".Bill.AddBill" />
         <activity android:name=".categori.AddCategori" />
