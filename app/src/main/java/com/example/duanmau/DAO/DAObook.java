@@ -2,6 +2,7 @@ package com.example.duanmau.DAO;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 import com.example.duanmau.DatabaseBookManage;
 
@@ -29,7 +30,7 @@ public class DAObook {
     }
 
     public void insert(){
-        
+        Log.e("","");
     }
 
 }
