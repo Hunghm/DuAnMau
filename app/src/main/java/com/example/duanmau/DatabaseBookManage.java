@@ -14,7 +14,7 @@ import com.example.duanmau.DAO.DAOcategori;
 
 public class DatabaseBookManage extends SQLiteOpenHelper {
     private static final int version = 1;
-    private static final String nameDB = "DataBookManage";
+    private static final String nameDB = "dbBookManage";
 
     public DatabaseBookManage(@Nullable Context context) {
         super(context, nameDB, null, version);

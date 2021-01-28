@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.example.duanmau.Bill.HoaDon;
+import com.example.duanmau.Bill.Bill;
 import com.example.duanmau.User.NguoiDung;
 import com.example.duanmau.Book.Sach;
 import com.example.duanmau.categori.TheLoai;
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         icHoaDon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, HoaDon.class));
+                startActivity(new Intent(MainActivity.this, Bill.class));
             }
         });
         icSach.setOnClickListener(new View.OnClickListener() {

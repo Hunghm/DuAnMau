@@ -10,8 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.duanmau.R;
-import com.example.duanmau.context.Bill;
-import com.example.duanmau.context.Categori;
+import com.example.duanmau.Models.Categori;
 
 import java.util.ArrayList;
 

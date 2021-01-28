@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.example.duanmau.R;
 import com.example.duanmau.adapter.UserAdapter;
-import com.example.duanmau.context.User;
+import com.example.duanmau.Models.User;
 
 import java.util.ArrayList;
 
@@ -31,10 +31,10 @@ public class NguoiDung extends AppCompatActivity {
         setSupportActionBar(toolbar);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view1);
 
-        userList.add(new User(R.drawable.emone,"Hoang Manh Hung","0123456789"));
-        userList.add(new User(R.drawable.emthree,"Hoang Manh Hung","0123456789"));
-        userList.add(new User(R.drawable.emtwo,"Nguyen Thi A","0123456789"));
-        userList.add(new User(R.drawable.emthree,"Hoang Manh Hung","0123456789"));
+//        userList.add(new User(R.drawable.emone,"Hoang Manh Hung","0123456789"));
+//        userList.add(new User(R.drawable.emthree,"Hoang Manh Hung","0123456789"));
+//        userList.add(new User(R.drawable.emtwo,"Nguyen Thi A","0123456789"));
+//        userList.add(new User(R.drawable.emthree,"Hoang Manh Hung","0123456789"));
         LinearLayoutManager linearLayoutManager =
                 new LinearLayoutManager(NguoiDung.this);
         recyclerView.setLayoutManager(linearLayoutManager);

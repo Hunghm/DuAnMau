@@ -10,13 +10,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.duanmau.R;
-import com.example.duanmau.context.BestSellerContext;
-import com.example.duanmau.context.Categori;
+import com.example.duanmau.Models.HoaDonChiTiet;
 
 import java.util.ArrayList;
 
 public class BestSellerAdapter extends RecyclerView.Adapter<BestSellerAdapter.ExampleViewHolder> {
-    private ArrayList<BestSellerContext> mExampleList;
+    private ArrayList<HoaDonChiTiet> mExampleList;
     private OnItemClickListener mListener;
     private Context context;
 
@@ -28,7 +27,7 @@ public class BestSellerAdapter extends RecyclerView.Adapter<BestSellerAdapter.Ex
         mListener = listener;
     }
 
-    public BestSellerAdapter(Context context, ArrayList<BestSellerContext> mExampleList) {
+    public BestSellerAdapter(Context context, ArrayList<HoaDonChiTiet> mExampleList) {
         this.context=context;
         this.mExampleList = mExampleList;
     }
@@ -67,7 +66,7 @@ public class BestSellerAdapter extends RecyclerView.Adapter<BestSellerAdapter.Ex
 
     @Override
     public void onBindViewHolder(@NonNull ExampleViewHolder holder, int position) {
-        BestSellerContext currentItem = mExampleList.get(position);
+        HoaDonChiTiet currentItem = mExampleList.get(position);
         holder.mTextView1.setText(currentItem.getmText1());
         holder.mTextView2.setText(currentItem.getmText2());
     }

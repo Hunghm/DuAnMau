@@ -11,13 +11,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.duanmau.Bill.AddBill;
-import com.example.duanmau.Bill.HoaDon;
 import com.example.duanmau.R;
-import com.example.duanmau.adapter.BillAdapter;
 import com.example.duanmau.adapter.BookAdapter;
-import com.example.duanmau.context.Bill;
-import com.example.duanmau.context.Book;
+import com.example.duanmau.Models.Book;
 
 import java.util.ArrayList;
 

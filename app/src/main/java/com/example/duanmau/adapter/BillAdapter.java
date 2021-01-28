@@ -4,15 +4,13 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.duanmau.R;
-import com.example.duanmau.context.Bill;
-import com.example.duanmau.context.User;
+import com.example.duanmau.Models.Bill;
 
 import java.util.ArrayList;
 

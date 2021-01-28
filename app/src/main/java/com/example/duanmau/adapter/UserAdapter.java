@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.duanmau.R;
-import com.example.duanmau.context.User;
+import com.example.duanmau.Models.User;
 
 import java.util.ArrayList;
 

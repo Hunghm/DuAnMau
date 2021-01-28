@@ -10,17 +10,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.example.duanmau.R;
 import com.example.duanmau.adapter.BillAdapter;
-import com.example.duanmau.context.Bill;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class HoaDon extends AppCompatActivity {
     RecyclerView recyclerView;
-    ArrayList<Bill> userList = new ArrayList<>();
+    ArrayList<com.example.duanmau.Models.Bill> userList = new ArrayList<>();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,12 +30,12 @@ public class HoaDon extends AppCompatActivity {
         setSupportActionBar(toolbar);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
-        userList.add(new Bill("1","15-2-2021"));
-        userList.add(new Bill("2","15-2-2021"));
-        userList.add(new Bill("3","15-2-2021"));
-        userList.add(new Bill("4","15-2-2021"));
-        userList.add(new Bill("5","15-2-2021"));
-        userList.add(new Bill("6","15-2-2021"));
+//        userList.add(new com.example.duanmau.Models.Bill("1","15-2-2021"));
+//        userList.add(new com.example.duanmau.Models.Bill("2","15-2-2021"));
+//        userList.add(new com.example.duanmau.Models.Bill("3","15-2-2021"));
+//        userList.add(new com.example.duanmau.Models.Bill("4","15-2-2021"));
+//        userList.add(new com.example.duanmau.Models.Bill("5","15-2-2021"));
+//        userList.add(new com.example.duanmau.Models.Bill("6","15-2-2021"));
 
         LinearLayoutManager linearLayoutManager =
                 new LinearLayoutManager(HoaDon.this);
